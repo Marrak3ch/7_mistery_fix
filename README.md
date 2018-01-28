@@ -2,7 +2,7 @@
 The program helps to solve quadratic equasions
 
 # How to use
- if discriminant < 0:
+ if discriminant < 0:<br>
         return None, None
     else:
         root1 = (-b - sqrt(discriminant)) / (2 * a)
@@ -11,13 +11,6 @@ The program helps to solve quadratic equasions
     else None
 
 # How to launch
-
-Example:
-
-```
-from quadratic_equation import get_roots
-root1, root2 = get_roots(1, 2, 3)
-```
 
 Scrit requires installed Python interpretator, version 3.5
 
