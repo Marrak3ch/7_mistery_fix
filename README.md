@@ -2,7 +2,7 @@
 The program helps to solve quadratic equasions
 
 # How to use
- if discriminant < 0:<br>
+ if discriminant < 0:
         return None, None
     else:
         root1 = (-b - sqrt(discriminant)) / (2 * a)
