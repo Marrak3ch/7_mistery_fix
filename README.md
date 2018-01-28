@@ -2,13 +2,15 @@
 The program helps to solve quadratic equasions
 
 # How to use
- if discriminant < 0:
-        return None, None
-    else:
-        root1 = (-b - sqrt(discriminant)) / (2 * a)
-        root2 = (-b + sqrt(discriminant)) / (2 * a)
-        return root1, root2 if discriminant > 0 \
-    else None
+```python
+ if discriminant < 0:  
+          return None, None  
+    else:  
+        root1 = (-b - sqrt(discriminant)) / (2 * a)  
+        root2 = (-b + sqrt(discriminant)) / (2 * a)  
+        return root1, root2 if discriminant > 0 \  
+    else None  
+```
 
 # How to launch
 
